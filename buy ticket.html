@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="LOGIN CSS.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buy ticket.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet"> 
+    <link href="stylesheet" href="payment.html">
+  </head>
+
+  
+  <body>
+    <header>
+      <nav>
+
+          <div class="row clearfix">
+              <img src="image/Logo.png" class="logo">
+              <ul class="main-nav">
+                  
+                  <li><a href="index1.html">Home</a> </li>
+                  <li><a href="LOGIN.html">LOGIN</a> </li>
+                  <li><a href="REGISTER.html">Register</a> </li>
+                  <li><a href="buy ticket.html">Buy Tickets</a> </li>
+                  <li><a href="CONTACT US.html">Contact Us</a> </li>
+              
+              </ul>
+          </div>
+      
+      </nav>
+
+
+<br><br>
+<div class="col-md-5 col-md-offset-1">
+    <section id="first-tab-group" class="tabgroup">
+        <div id="tab1">
+            <div class="submit-form">
+             <br> <h3>  Book Your Seat</h3><br>
+                <form id="form-submit" action="" method="get">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <fieldset>
+                                <label for="from">From:</label>
+                                <select required name='from' onchange='this.form()'>
+                                    <option value="">Select a location...</option>
+                                    <option value="Dhaka">Dhaka</option>
+                                    <option value="Chottogram">Chottogram</option>
+                                    <option value="Khulna">Khulna</option>
+                                    <option value="Borisal">Borisal</option>
+                                    <option value="Rajsahi">Rajsahi</option>
+                                    <option value="Cox's Bazar">Cox's Bazar</option>
+                                    <option value="Mymansing">Mymansing</option>
+                                    <option value="Sylet">Sylet</option>
+                                    <option value="cumillah">cumillah</option>
+                                </select>
+                            </fieldset>
+                        </div><br>
+                        <div class="col-md-6">
+                            <fieldset>
+                                <label for="to">To:</label>
+                                <select required name='to' onchange='this.form()'>
+                                    <option value="">Select a location...</option>
+                                    <option value="Dhaka">Dhaka</option>
+                                    <option value="Chottogram">Chottogram</option>
+                                    <option value="Khulna">Khulna</option>
+                                    <option value="Borisal">Borisal</option>
+                                    <option value="Rajsahi">Rajsahi</option>
+                                    <option value="Cox's Bazar">Cox's Bazar</option>
+                                    <option value="Mymansing">Mymansing</option>
+                                    <option value="Sylet">Sylet</option>
+                                    <option value="cumillah">cumillah</option>
+                                </select>
+                            </fieldset>
+                        </div><br>
+                        <div class="col-md-6">
+                            <fieldset>
+                                <label for="departure">Departure date:</label>
+                                <input name="deparure" type="text" class="form-control date" id="deparure" placeholder="Select date..." required="" onchange='this.form()'>
+                            </fieldset>
+                        </div><br>
+                        <div class="col-md-6">
+                            <fieldset>
+                                <label for="return">Return date:</label>
+                                <input name="return" type="text" class="form-control date" id="return" placeholder="Select date..." required="" onchange='this.form()'>
+                            </fieldset>
+                        </div><br>
+                        <div class="col-md-6">
+                            <div class="radio-select">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <label for="round">Payment Done</label>
+                                        <input type="radio" name="trip" id="round" value="round" required="required"onchange='this.form.()'>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <label for="oneway">Payment Undone</label>
+                                        <input type="radio" name="trip" id="oneway" value="one-way" required="required"onchange='this.form.()'>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><br>
+                        <div class="col-md-6">
+                            <fieldset>
+                                <a href="payment.html" class="btn">Order Ticket Now </a>     
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+</div>
+</div>
+</section>
+  </body>
+</html>

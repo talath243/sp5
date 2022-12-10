@@ -1,0 +1,12 @@
+body{
+    background-image:linear-gradient(rgba(141, 131, 131, 0.5),rgba(10, 10, 10, 0.5)), url(image/om20-teaser-stage-safer-travel-1680x945.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.yo{
+   text-align: center;
+   text-transform: uppercase;
+   
+}
